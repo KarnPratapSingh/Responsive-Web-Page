@@ -203,6 +203,13 @@ body{
         align-content: center;
         border-bottom: solid 2px black;
     }
+    .navbar div{
+        /* align-items: center; */
+        align-content: center;
+        justify-content: center;
+        margin:20px;
+        width: 90%;  
+    }
     .newsBlog{
         font-size: 14px; 
         margin:4px;
