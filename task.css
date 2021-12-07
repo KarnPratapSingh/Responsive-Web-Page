@@ -131,18 +131,20 @@ body{
 
 
 .footer{
-    
     background-color: rgb(34, 28, 88);
     height: 35px;
     width: 100%;
     margin:0px;
     text-align:center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .footer h3 {
     margin:auto;
-    vertical-align:middle;
-    padding-top: 5px;
+    font-size: 12px;
+    
 }
 
 @media screen and (max-width:832px) {
