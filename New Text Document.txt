@@ -1,0 +1,20 @@
+- doctype tells the browser what type of content it has to render.
+- html 4 had lot of ids like header, footer, sidebar
+- html 5 semantic tags were introduced like <header>, <footer>,<nav>
+- block elements: div,p,h1,
+- inline elements: span, a, img,
+- use rem or m rather than px in css.
+- caniuse.com
+- html is structural layer. HTML plus css is presentation layer.
+- how does web kit work behind the scenes? tree rendering
+- Inline css is dangerous.
+- <link rel="preload" // resepctive link is loaded before the DOM is loaded
+- Border box.
+- 1 rem =16 px
+- use display flex instead of float.
+- validator.w3.org: tells us the mistake in html page
+- you can use all google fonts. Just take the link from googleFonts
+- CDN: content delivery network
+
+Assignment:
+1. 
