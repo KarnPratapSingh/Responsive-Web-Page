@@ -18,7 +18,7 @@ body{
     margin:4px;
 }
 .wwn{
-    margin: 0px;
+    margin: 0;
     font-size: 13px;
 }
 
@@ -50,23 +50,26 @@ body{
 }
 
 .navbar div{
-    /* align-items: center; */
     align-content: center;
     justify-content: center;
     margin:20px;
     width: 100%;  
 }
 
-.box1{
+.boxOrder1{
     order: 1;
     
 }
-.box2{
-    text-align: center;
+.boxOrder2{
     order: 2;
 }
-.box3{
+
+.boxOrder3{
     order: 3;
+}
+
+.center{
+    text-align: center;
 }
 
 .allNews{
@@ -102,7 +105,7 @@ body{
 
 
 .blogHead{
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 
@@ -117,7 +120,6 @@ body{
 }
 .btn{
     position: absolute;
-    /* height: 36px; */
     text-align: center;
     bottom:4px;
     left:0;
@@ -134,7 +136,7 @@ body{
     background-color: rgb(34, 28, 88);
     height: 35px;
     width: 100%;
-    margin:0px;
+    margin:0;
     text-align:center;
     display: flex;
     justify-content: center;
@@ -160,7 +162,7 @@ body{
         margin:4px;
     }
     .wwn{
-        margin: 0px;
+        margin: 0;
         font-size: 12px;
     }
     .subBtn{
@@ -204,7 +206,6 @@ body{
         border-bottom: solid 2px black;
     }
     .navbar div{
-        /* align-items: center; */
         align-content: center;
         justify-content: center;
         margin:20px;
@@ -219,7 +220,6 @@ body{
         font-size: 20px;
     }
     .wrapper{
-        
         width:100%
     }
     .dropdown{
@@ -234,16 +234,16 @@ body{
         position: relative;
         height: 300px;
     }
-    .box1{
+    .boxOrder1{
         height: 50px;
         order: 2;
     }
-    .box2{
+    .boxOrder2{
         margin-left: 0;
         height: 50px;
         order: 3;
     }
-    .box3{
+    .boxOrder3{
         height: 50px;
         order: 1;
     }
