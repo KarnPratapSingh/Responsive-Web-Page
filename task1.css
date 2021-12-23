@@ -7,30 +7,30 @@ body{
 .header{
     
     background-color: rgb(34, 28, 88);
-    height: 100px;
+    height: 100rem;
     width: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
 }
 .newsBlog{
-    font-size: 20px; 
-    margin:4px;
+    font-size: 20rem; 
+    margin:4rem;
 }
 .wwn{
     margin: 0;
-    font-size: 13px;
+    font-size: 13rem;
 }
 
 .topHeading{
     
-    margin-top: 10px;
+    margin-top: 10rem;
     box-sizing: border-box;
     background-color: white;
     width: 15%;
     margin: auto;
-    border: solid 2px red;
-    height: 60px;
+    border: solid 2rem red;
+    height: 60rem;
     text-align: center;
 }
 
@@ -46,13 +46,13 @@ body{
     display: flex;
     align-content: center;
     justify-content: center;
-    border-bottom: solid 2px black;
+    border-bottom: solid 2rem black;
 }
 
 .navbar div{
     align-content: center;
     justify-content: center;
-    margin:20px;
+    margin:20rem;
     width: 100%;  
 }
 
@@ -74,23 +74,21 @@ body{
 
 .allNews{
     color: rgb(34, 28, 88);
-    font-size: 40px;
+    font-size: 40rem;
 }
 
 .dropdown{
-    width:200px;
-    height: 30px;
+    width:200rem;
+    height: 30rem;
 }
-
-
 .subscribe{
-    width:200px;
-    height: 30px;
+    width:200rem;
+    height: 30rem;
 }
 
 .subBtn{
-    height: 36px;
-    font-size: 16px;
+    height: 36rem;
+    font-size: 16rem;
     border: none;
     cursor: pointer;
     background-color: black;
@@ -102,7 +100,7 @@ body{
 }
 
 .blog div{
-    margin-right:20px;
+    margin-right:20rem;
 }
 
 
@@ -112,8 +110,8 @@ body{
 
 
 .fakeImage{
-    width: 200px;
-    height: 200px;
+    width: 200rem;
+    height: 200rem;
 }
 
 
@@ -123,10 +121,10 @@ body{
 .btn{
     position: absolute;
     text-align: center;
-    bottom:4px;
+    bottom:4rem;
     left:0;
-    padding: 10px;
-    font-size: 14px;
+    padding: 10rem;
+    font-size: 14rem;
     border: none;
     cursor: pointer;
     background-color: rgb(255, 123, 0);
@@ -136,7 +134,7 @@ body{
 
 .footer{
     background-color: rgb(34, 28, 88);
-    height: 35px;
+    height: 35rem;
     width: 100%;
     margin:0;
     text-align:center;
@@ -147,29 +145,29 @@ body{
 
 .footer h3 {
     margin:auto;
-    font-size: 12px;
+    font-size: 12rem;
     
 }
 
-@media screen and (max-width:832px) {
+@media screen and (max-width:832rem) {
     body{
         background-color: rgba(233, 245, 233, 0.753);
     }
     .subscribe{
-        width:100px;
-        height: 30px;
+        width:100rem;
+        height: 30rem;
     }
     .newsBlog{
-        font-size: 18px; 
-        margin:4px;
+        font-size: 18rem; 
+        margin:4rem;
     }
     .wwn{
         margin: 0;
-        font-size: 12px;
+        font-size: 12rem;
     }
     .subBtn{
-        height: 36px;
-        font-size: 10px;
+        height: 36rem;
+        font-size: 10rem;
         border: none;
         cursor: pointer;
         background-color: black;
@@ -177,127 +175,79 @@ body{
     }
     .content{
         position: relative;
-        height: 230px;
+        height: 230rem;
     }
     
 }
-@media screen and (max-width:741px) {
+@media screen and (max-width:480rem) {
     body{
         background-color: rgb(238, 226, 226);
 
     }
     .topHeading{
     
-        margin-top: 10px;
+        margin-top: 10rem;
         box-sizing: border-box;
         background-color: white;
         width: 30%;
         margin: auto;
-        border: solid 2px red;
-        height: 50px;
+        border: solid 2rem red;
+        height: 50rem;
         text-align: center;
     }
     .subscribe{
-        width:70%;
-        height: 30px;
-    }
-    .Subscribe-Word{
-        text-align: center;
-    }
-    .subBtn{
-        height: 36px;
-        font-size: 8px;
-        border: none;
-        cursor: pointer;
-        background-color: black;
-        color: white;
+        width:60%;
+        height: 30rem;
     }
     .navbar{
         display: flex;
         flex-direction: column;
         align-content: center;
-        border-bottom: solid 2px black;
+        border-bottom: solid 2rem black;
     }
     .navbar div{
         align-content: center;
         justify-content: center;
-        margin:20px;
+        margin:20rem;
         width: 90%;  
     }
     .newsBlog{
-        font-size: 14px; 
-        margin:4px;
+        font-size: 14rem; 
+        margin:4rem;
     }
     .allNews{
         color: rgb(34, 28, 88);
-        font-size: 20px;
+        font-size: 20rem;
     }
     .wrapper{
         width:100%
     }
     .dropdown{
-        width:100%;
-        height: 20px;
-        overflow: hidden;
-    }
-
-    option{
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-
+        width:60rem;
+        height: 20rem;
     }
     .fakeImage{
-        width: 70px;
-        height: 70px;
+        width: 70rem;
+        height: 70rem;
     }
     .content{
         position: relative;
-        height: 266px;
+        height: 300rem;
     }
     .boxOrder1{
-        height: 50px;
+        height: 50rem;
         order: 2;
-        display: flex;
-        justify-content: center;
-        text-align: center;
     }
     .boxOrder2{
         margin-left: 0;
-        height: 50px;
+        height: 50rem;
         order: 3;
     }
     .boxOrder3{
-        margin: 0;
-        padding: 0;
-        height: 50px;
+        height: 50rem;
         order: 1;
-        display: flex;
-        justify-content: center;
-        text-align: center;
     }
-
-    .Preview{
-        overflow: hidden;
-        max-height: 98px;
-    }
-    
 
     
-}
-
-@media screen and (max-width:308px){
-    .Preview{
-        overflow: hidden;
-        max-height: 79px;
-    }
-
-    .newsBlog{
-        font-size: 13px; 
-        margin:4px;
-    }
-    .wwn{
-        font-size: 10px;
-    }
 }
 
